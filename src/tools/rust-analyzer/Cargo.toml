@@ -49,7 +49,8 @@ debug = 2
 
 # salsa = { path = "../salsa" }
 
-rustc-literal-escaper = { path = '../../../../literal-escaper/' }
+#rustc-literal-escaper = { path = '../../../../literal-escaper/' }
+rustc-literal-escaper = { git = "https://github.com/hkBst/literal-escaper", branch = "remove_unreachable" }
 
 [workspace.dependencies]
 # local crates

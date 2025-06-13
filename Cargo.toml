@@ -91,4 +91,5 @@ codegen-units = 1
 # lto = true
 
 [patch.crates-io]
-rustc-literal-escaper = { path = '../literal-escaper/' }
+#rustc-literal-escaper = { path = '../literal-escaper/' }
+rustc-literal-escaper = { git = "https://github.com/hkBst/literal-escaper", branch = "remove_unreachable" }

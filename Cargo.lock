@@ -3167,6 +3167,7 @@ checksum = "357703d41365b4b27c590e3ed91eabb1b663f07c4c084095e60cbed4362dff0d"
 [[package]]
 name = "rustc-literal-escaper"
 version = "0.0.4"
+source = "git+https://github.com/hkBst/literal-escaper?branch=remove_unreachable#c9ae54eb631ad5ab381c7fa3514cf2893b256e2e"
 
 [[package]]
 name = "rustc-main"
